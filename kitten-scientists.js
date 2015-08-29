@@ -28,7 +28,7 @@ var options = {
     auto: {
         engine:   {enabled: false},
         faith:    {enabled: true, trigger: 0.99},
-        festival: {enabled: true},
+        festival: {enabled: false},
         hunt:     {enabled: true, trigger: 0.6},
         build: {
             enabled: true, trigger: 0.75, items: {
@@ -715,19 +715,19 @@ var body = $('body');
 var button = $('.btn.modern');
 
 container.css({
-    fontFamily: 'monospace',
+    fontFamily: 'Consolas',
     fontSize: '12px',
     minWidth: '1300px',
     top: '32px'
 });
 
 body.css({
-    fontFamily: 'monospace',
+    fontFamily: 'Consolas',
     fontSize: '12px'
 });
 
 button.css({
-    fontFamily: 'monospace',
+    fontFamily: 'Consolas',
     fontSize: '12px'
 });
 
@@ -782,9 +782,9 @@ addRule('#resContainer .maxRes {'
 + '}');
 
 addRule('#game .btn {'
-+ 'border-radius: 0px;'
-+ 'font-family: "Courier New";'
-+ 'font-size: "10px";'
++ 'border-radius: 2px;'
++ 'font-family: "Consolas";'
++ 'font-size: "12px";'
 + 'margin: 0 0 7px 0;'
 + '}');
 
